@@ -79,10 +79,10 @@
     </header>
     <main class="fondo">
       <section>
-        <article>
+        <div class="container-fluid">
           <h1>Contacto</h1>
 
-          <div class="mb-3">
+          <div class="row mb-3">
             <label for="exampleFormControlInput1" class="form-label"
               >E-Mail</label
             >
@@ -93,7 +93,7 @@
               placeholder="email@correo.com"
             />
           </div>
-          <div class="mb-3">
+          <div class="row mb-3">
             <label for="exampleFormControlTextarea1" class="form-label"
               >Mensaje</label
             >
@@ -104,15 +104,12 @@
               placeholder="Envianos tu consulta!"
             ></textarea>
           </div>
-          <button
-            type="button"
-            class="btn btn-primary btn-lg btn-outline-light"
-            style="background-color: rgb(0, 151, 239, 1)"
-            href="#"
-          >
-            Enviar
-          </button>
-        </article>
+          <div class="col">
+          <a
+          class="btnprod btn btn-primary btn-lg btn-outline-light"
+          href="/pages/contacto.html">Enviar</a>
+          </div>
+        </div>
 
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52559.96872292544!2d-58.72052872601714!3d-34.57891601605364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbc6ade54428f%3A0x8c9d6e479f248d05!2sTerrazas%20de%20Mayo%20Shopping!5e0!3m2!1ses-419!2sar!4v1673374234799!5m2!1ses-419!2sar"
@@ -123,14 +120,12 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+        </div>
       </section>
     </main>
-    <footer
-      class="text-white col-12 fixed-bottom"
-      style="background-color: rgb(255 124 124)"
-    >
+    <footer class="text-white fixed-bottom">
       <div class="container-fluid row align-items-center">
-        <div class="col-12 col-md-4 d-flex">
+        <div class=" col-md-4 col-sm-12 d-flex">
           <a href="../index.html">
             <img
               class="img-fluid"
@@ -140,7 +135,7 @@
             />
           </a>
         </div>
-        <div class="col-12 col-md-4 d-flex justify-content-center">
+        <div class=" col-md-4 col-sm-12 d-flex justify-content-center">
           © 2023:
           <a
             class="text-white"
@@ -149,7 +144,7 @@
             Mariano Neves</a
           >
         </div>
-        <section class="col-12 col-md-4 d-flex justify-content-end">
+        <div class=" col-md-4 col-sm-12 d-flex justify-content-end">
           <a class="btn btn-outline-light m-1" href="#!" role="button"
             ><i class="fab fa-facebook-f"></i
           ></a>
@@ -161,7 +156,7 @@
           <a class="btn btn-outline-light m-1" href="#!" role="button"
             ><i class="fab fa-instagram"></i
           ></a>
-        </section>
+        </div>
       </div>
     </footer>
     <script

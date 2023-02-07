@@ -12,35 +12,29 @@ body {
 
 .menu {
   background: linear-gradient(to right, #1c93d8 60%, #a6d8f1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 #logo1 {
   max-width: 25%;
 }
 
-#logo2 {
-  max-width: 5rem;
-  margin: 6px;
-}
-
 #almohadas {
   max-width: 50%;
-}
-.navbar {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 section {
   text-align: center;
-  justify-content: center;
   padding: 1rem;
+  padding-bottom: 12rem;
 }
 
-.btn-lg {
-  width: 190px;
-  height: 60px;
+.btnprod {
+  width: 300px;
+  height: 55px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   margin: 1rem;
+  background-color: rgb(0, 151, 239, 1) !important;
 }
 
 #logo2 {
@@ -53,6 +47,7 @@ section {
 }
 
 .zoom {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   transition: transform 0.2s;
 }
 
@@ -66,4 +61,8 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+footer {
+  background-color: rgb(255 124 124);
 }

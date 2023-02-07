@@ -71,8 +71,7 @@
     </header>
     <main class="fondo">
       <section>
-        <div class="container">
-          <div class="row">
+        <div class="container-fluid">
             <h1>¡Hola!</h1>
             <p class="lead">
               Somos Zip Zap Sublimaciones, aquí podrás encontrar una gran
@@ -110,23 +109,15 @@
               </div>
             </div>
           </div>
+          <a
+          class="btnprod btn btn-primary btn-lg btn-outline-light"
+          href="pages/productos.html">Ver productos</a>
         </div>
-        <button
-          type="button"
-          class="btn btn-primary btn-lg btn-outline-light"
-          style="background-color: rgb(0, 151, 239, 1)"
-          href="/pages/productos.html"
-        >
-          Ver productos
-        </button>
-      </section>
+    </section>
     </main>
-    <footer
-      class="text-white col-12 fixed-bottom"
-      style="background-color: rgb(255 124 124)"
-    >
-      <div class="container-fluid row align-items-center">
-        <div class="col-12 col-md-4 d-flex">
+    <footer class="text-white fixed-bottom">
+      <div class="container-fluid row gx-5 align-items-center">
+        <div class="col*6 col-md-4 col-sm-12 d-flex">
           <a href="./index.html">
             <img
               class="img-fluid"
@@ -136,7 +127,7 @@
             />
           </a>
         </div>
-        <div class="col-12 col-md-4 d-flex justify-content-center">
+        <div class="col*6 col-md-4 col-sm-12 d-flex justify-content-center">
           © 2023:
           <a
             class="text-white"
@@ -145,7 +136,7 @@
             Mariano Neves</a
           >
         </div>
-        <section class="col-12 col-md-4 d-flex justify-content-end">
+        <div class="col*6 col-md-4 col-sm-12 d-flex justify-content-end">
           <a class="btn btn-outline-light m-1" href="#!" role="button"
             ><i class="fab fa-facebook-f"></i
           ></a>
@@ -157,7 +148,7 @@
           <a class="btn btn-outline-light m-1" href="#!" role="button"
             ><i class="fab fa-instagram"></i
           ></a>
-        </section>
+        </div>
       </div>
     </footer>
     <script
