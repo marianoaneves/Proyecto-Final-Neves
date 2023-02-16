@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-coder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianoaneves/proyecto-coder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marianoaneves/proyecto-coder/issues"
+  },
+  "homepage": "https://github.com/marianoaneves/proyecto-coder#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,52 @@
+.btnprod {
+  width: 300px;
+  height: 55px;
+  box-shadow: $box-shadow-bt;
+  margin: 1rem;
+  background-color: $color1 !important;
+}
+
+.fondo {
+  background-image: url("../img/fondo-4.png");
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+#almohadas {
+  max-width: 50%;
+}
+
+section {
+  text-align: center;
+  padding: 1rem;
+  padding-bottom: 12rem;
+}
+
+#logo2 {
+  max-width: 5rem;
+  margin: 6px;
+}
+
+.border {
+  box-shadow: $box-shadow-bt;
+}
+
+.zoom {
+  box-shadow: $box-shadow-bt;
+  transition: transform 0.2s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+footer {
+  background-color: rgb(255 124 124);
+}
